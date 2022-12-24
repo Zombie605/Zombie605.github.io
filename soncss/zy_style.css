@@ -1,0 +1,21 @@
+body {
+    background-image: url(../image/周源主页背景图片.jpg);
+    background-repeat: no-repeat center;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    background-size: cover;
+}
+.container {
+    padding-left: 130px;
+    width:430px;
+    margin: 7% auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 阴影部分 */
+    box-shadow: 0 0 17px #333; 
+}
+.container h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+}
