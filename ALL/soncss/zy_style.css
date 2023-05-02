@@ -1,0 +1,110 @@
+body {
+    background-image: url(../image/周源主页背景图片.jpg);
+    background-repeat: no-repeat center;
+    /* 溢出隐藏 */
+    background-size: cover;
+}
+.container {
+    padding-left: 130px;
+    width:430px;
+    margin: 7% auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 阴影部分 */
+    box-shadow: 0 0 17px #333; 
+}
+.container h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+} 
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    position: relative;
+    margin: 100px auto;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    font-family: Arial;
+    color: #fff;
+    overflow: hidden;
+}
+.slide ul {
+    margin: 10px 0;
+    padding: 0;
+    width: calc(800px * 3);
+    transition: all .5s;
+}
+.slide li {
+    float: left;
+    width: 800px;
+    height: 500px;
+    list-style: none;
+    line-height: 500px;
+    font-size: 50px;
+}
+.slide li:nth-child(1) {
+    background: url(../image/周源主页轮播图1.png) center no-repeat;
+    background-size: 100%;
+
+}
+.slide li:nth-child(2) {
+    background: url(../image/周源主页轮播图2.png) center no-repeat;
+    background-size: contain;
+}
+.slide li:nth-child(3) {
+    background: url(../image/周源主页轮播图3.png) center no-repeat;
+    background-size: contain;
+}
+
+.slide input[name="button"] {
+    display: none;
+}
+.slide label[for^="button"] {
+    position: absolute;
+    top: 450px;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    transition:  .3s;
+}
+.slide label[for="button1"] {
+    left: 40%;
+}
+.slide label[for="button2"] {
+    left: 45%;
+}
+.slide label[for="button3"] {
+    left: 50%;
+}
+#button1:checked ~ul {
+    margin-left: 0;
+}
+#button2:checked ~ul {
+    margin-left: -800px;
+}
+#button3:checked ~ul {
+    margin-left: -1600px;
+}
+#button1:checked ~ label[for="button1"] {
+    background: rgb(0, 17, 255);
+}
+#button2:checked ~ label[for="button2"] {
+    background: rgb(0, 17, 255);
+}
+#button3:checked ~ label[for="button3"] {
+    background: rgb(0, 17, 255);
+}

@@ -1,0 +1,40 @@
+body {
+    background-image: url(./image/主页背景图片.jpg);
+    background-repeat: no-repeat center;
+    /* 溢出隐藏 */
+    background-size: cover;
+}
+.container {
+    padding-left: 200px;
+    width:430px;
+    margin:7% auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 阴影部分 */
+    box-shadow: 0 0 17px #333; 
+}
+.block {
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.block_video {
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;
+    width:56.6%;
+    border: 5px solid #ccc;
+    box-sizing: border-box;
+}
+.block_video_p {
+    background-color: rgba(0, 0, 0, 0.1);
+    float: left;
+    width:43.4%;
+    border: 5px solid #ccc;
+    box-sizing: border-box;
+}
+
+.down {
+    padding-top: 400px;
+}
