@@ -1,0 +1,97 @@
+/* 版心 */
+.w {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8f8ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* 头部 */
+.header {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5c007a;
+  border-radius: 10px;
+}
+
+.header .logo {
+  text-align: center;
+}
+
+.header .logo img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+
+.header .txt h1 {
+  text-align: center;
+  font-family: "方正舒体";
+  font-size: 14px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.header .toggle {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.header .toggle button {
+  background-color: aliceblue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 顶部导航栏 */
+.nav {
+  background-color: #660e76;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav ul li {
+  flex: 1;
+  text-align: center;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav ul li a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
+/* 页脚 */
+.footer {
+  background-color: #660e76;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.footer .bq,
+.footer .ba {
+  margin: 10px 0;
+}

@@ -1,0 +1,160 @@
+/* 版心开始 */
+body {
+    background-color: aliceblue;
+}
+
+.w {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #7F008F;
+}
+
+/* 版心结束 */
+
+/* 头部开始 */
+/* 头部左侧logo开始 */
+.header {
+    position: relative;
+    height: 130px;
+}
+
+.header .logo {
+    top: 8px;
+    left: 70px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* background-color: #fff; */
+}
+
+.header .logo a {
+    font-size: 0;
+}
+
+.header .logo img {
+    width: 108px;
+    border-radius: 10px;
+    border: 3px solid #fff
+}
+
+.header .pic {
+    position: absolute;
+    right: 0;
+}
+
+/* 头部左侧logo结束 */
+/* 头部文字开始 */
+.header .txt {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    /* background-color: aqua; */
+    font-family: "方正舒体";
+    font-size: 25px;
+}
+
+.header .txt h1 {
+    color: rgb(244, 244, 244);
+}
+
+/* 头部文字结束 */
+/* 头部注册登录开始 */
+.header .zd {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: aliceblue;
+}
+
+.header .z,
+.header .d {
+    float: left;
+    transition: all 0.2s;
+    border: 1px;
+    /* 调用动画 */
+    animation: move 0.5s linear 0s infinite alternate;
+}
+
+.header .z:hover,
+.header .d:hover {
+    background-color: aqua;
+    transform: translateY(-3px);
+    animation: none;
+}
+
+/* 定义注意动画 */
+@keyframes move {
+    0% {
+        border: 2px solid black;
+        border-color: aliceblue;
+    }
+
+    100% {
+        border: 2px solid blue;
+    }
+}
+
+/* 头部结束 */
+
+/* 顶部导航栏开始 */
+.nav {
+    height: 50px;
+    background-color: #660E76;
+}
+
+.nav ul li {
+    float: left;
+    transition: all 0.2s;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.nav ul li:hover {
+    background-color: #fff;
+    transform: translate(0, -3px);
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.33);
+}
+
+.nav ul li:hover a {
+    color: rgb(179, 57, 47);
+}
+
+.nav ul li:active {
+    background-color: rgb(115, 86, 177);
+}
+
+.nav ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 100px;
+    color: aliceblue;
+}
+
+/* 顶部导航栏结束 */
+
+/* 页脚开始 */
+.footer {
+    height: 150px;
+}
+
+.footer .bq {
+    /* background-color: #fff; */
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.footer .bq p {
+    color: rgb(233, 233, 233);
+}
+
+.footer .ba {
+    margin-left: 430px;
+}
+
+.footer .ba h5 {
+    color: rgb(233, 233, 233);
+    font-size: 15px;
+}
+
+/* 内容结束 */

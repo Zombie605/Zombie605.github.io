@@ -1,0 +1,173 @@
+/* 版心 */
+.w {
+    width: 420px;
+    /* 缩小宽度 */
+    height: 380px;
+    /* 缩小高度 */
+    background-color: rgba(244,244,244,0.4);
+    margin: 0 auto;
+    margin-top: 100px;
+    /* 调整上边距 */
+    border-radius: 6%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px #545454;
+    position: relative;
+    /* 设置为相对定位，便于子元素绝对定位 */
+}
+
+/* 注册页logo */
+.logo h1 {
+    font-size: 0;
+}
+
+.logo h1 img {
+    float: left;
+    /* 缩小图片尺寸 */
+    height: 70px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-left: 10px;
+    /* 调整边距 */
+    border-radius: 9px;
+}
+
+/* 注册页提示 */
+.txt h2 {
+    /* background-color: #f2f; */
+    float: left;
+    margin-left: 17px;
+    /* 调整左边距 */
+    margin-top: 55px;
+    /* 调整上边距 */
+    font-size: 30px;
+    /* 调整字体大小 */
+}
+
+/* 注册页账号 */
+.zh {
+    /* background-color: bisque; */
+    position: absolute;
+    width: 250px;
+    /* 缩小宽度 */
+    height: 30px;
+    /* 缩小高度 */
+    top: 150px;
+    /* 调整垂直位置 */
+    left: 75px;
+    /* 调整水平位置 */
+}
+
+.zh input {
+    width: 100%;
+    /* 输入框宽度占满父容器 */
+    height: 26px;
+    /* 缩小高度 */
+    outline: none;
+    padding: 0 8px;
+    /* 调整内边距 */
+    border: 1px solid #ccc;
+    /* 添加边框 */
+    border-radius: 4px;
+    /* 添加圆角 */
+}
+
+.zh input:hover {
+    transform: translateY(-1px);
+    /* 调整位移效果 */
+    transition: all 0.2s;
+}
+
+.zh i {
+    position: absolute;
+    left: -23px;
+    bottom: 6px;
+    font-size: 22px;
+}
+/* 注册页密码 */
+.password {
+    /* background-color: bisque; */
+    position: absolute;
+    width: 250px;
+    /* 缩小宽度 */
+    height: 30px;
+    /* 缩小高度 */
+    top: 190px;
+    /* 调整垂直位置 */
+    left: 75px;
+    /* 调整水平位置 */
+}
+
+.password input {
+    width: 100%;
+    /* 输入框宽度占满父容器 */
+    height: 26px;
+    /* 缩小高度 */
+    outline: none;
+    padding: 0 8px;
+    /* 调整内边距 */
+    border: 1px solid #ccc;
+    /* 添加边框 */
+    border-radius: 4px;
+    /* 添加圆角 */
+}
+
+.password input:hover {
+    transform: translateY(-1px);
+    /* 调整位移效果 */
+    transition: all 0.2s;
+}
+
+.password i {
+    position: absolute;
+    left: -23px;
+    bottom: 6px;
+    font-size: 22px;
+}
+
+/* 注册页登录button */
+.btn {
+    position: absolute;
+    left: 85px;
+    /* 调整水平位置 */
+    top: 230px;
+    /* 调整垂直位置 */
+}
+
+.btn button {
+    width: 250px;
+    /* 缩小宽度 */
+    height: 30px;
+    /* 缩小高度 */
+    background-color: #007BFF;
+    /* 设置背景颜色 */
+    color: white;
+    /* 设置文字颜色 */
+    border: none;
+    /* 移除边框 */
+    border-radius: 4px;
+    /* 添加圆角 */
+    cursor: pointer;
+    /* 鼠标悬停时显示手型 */
+    font-size: 14px;
+    /* 调整字体大小 */
+}
+
+.btn button:hover {
+    background-color: #0056b3;
+    /* 鼠标悬停时背景颜色加深 */
+}
+
+/* 版权开始 */
+.bq footer p {
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    width: 300px;
+}
+
+body {
+    background-image: url('../OIP-C.jpg');
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
