@@ -1,0 +1,15 @@
+.w {
+    margin: 0 auto;
+    width: 400px;
+    /* 缩小宽度 */
+    height: 450px;
+    /* 缩小高度 */
+    /* background-color: rgba(244,244,244,0.4); */
+    margin-top: 20px;
+    /* 调整上边距 */
+    border-radius: 6%;
+    border: 2px solid black;
+    /* box-shadow: 2px 2px 2px #545454; */
+    position: relative;
+    /* 设置为相对定位，便于子元素绝对定位 */
+}

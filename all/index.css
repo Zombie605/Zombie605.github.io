@@ -1,0 +1,105 @@
+/* 登录页-防其他人 */
+/* 版心 */
+.w {
+    margin: 0 auto;
+    width: 390px;
+    /* 缩小宽度 */
+    height: 330px;
+    /* 缩小高度 */
+    /* background-color: rgba(244,244,244,0.4); */
+    margin-top: 100px;
+    /* 调整上边距 */
+    border-radius: 6%;
+    border: 2px solid black;
+    /* box-shadow: 2px 2px 2px #545454; */
+    position: relative;
+    /* 设置为相对定位，便于子元素绝对定位 */
+}
+
+.w {
+    background-image: url("/all/pic/small_icon/OIP-C.jpg");
+    background-size: 400px;
+}
+/* 标题 */
+.w .title {
+    position: relative;
+    background-color: rgb(183, 68, 68,0.8);
+    top: 35px;
+}
+
+.w .title h1 {
+    margin:0 70px;
+}
+/* 账号 */
+.w .name {
+    /* background-color: aqua; */
+    margin: 0 60px;
+    margin-top: 80px;
+}
+
+.w .name .p1 {
+    /* background-color: bisque; */
+    float: left;
+}
+
+/* 密码 */
+.w .password {
+    /* background-color: aqua; */
+    margin: 0 60px;
+    margin-top: 3px;
+}
+
+.w .password .p2 {
+    /* background-color: bisque; */
+    float: left;
+}
+
+/* 登录核心 */
+.w .name .p1 img,.w .name input,.w .password .p2 img,.w .password input {
+    height: 30px;
+}
+
+.w .name .p1 img,.w .password .p2 img {
+    position: relative;
+    top: 3px;
+    left: -2px;
+}
+.w .name input,.w .password input {
+    width: 211px;
+}
+
+/* 提交按钮 */
+.w .submit {
+    position: relative;
+    left: 210px;
+    top:10px;
+}
+
+.w .submit button {
+    width: 83px;
+    height: 30px;
+}
+
+.w .submit p {
+    position: relative;
+    display: inline-block;
+    top: -10px;
+}
+.w .submit .p3 {
+    /* background-color: bisque; */
+    float: left;
+}
+
+.w .submit .p3 img {
+    position: relative;
+    left: 22px;
+    height: 18px;
+    top: 6px;
+}
+
+
+/* 版权 */
+.w .bottom {
+    position: relative;
+    top: -2px;
+}
