@@ -1,0 +1,46 @@
+/* 内容盒子模型开始 */
+.content .nr .box {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.content .nr .box .pic img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.content .nr .box .txt2 p {
+    font-size: 14px;
+}
+
+.content .nr .box .data p {
+    font-size: 12px;
+}
+
+/* 头部位置提示 */
+.nav ul li:last-child {
+    margin: 10px 0;
+}
+
+/* 整体高度调整 */
+.w {
+    min-height: 100vh;
+}
+
+.content .nr {
+    min-height: calc(100vh - 200px);
+}
+
+/* 换页开始 */
+.turn {
+    margin-top: 20px;
+}
+
+.turn a {
+    background-color: #f0f0f0;
+}
+
+/* 页脚开始 */
+.footer {
+    min-height: 50px;
+}

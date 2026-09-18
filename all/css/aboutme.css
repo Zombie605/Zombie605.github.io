@@ -1,0 +1,26 @@
+/* 顶部导航栏细节补充 */
+.nav ul li:last-child {
+    top: 2px;
+    left: 348px;
+}
+
+/* 内容文字背景色修改 */
+.nr h2,
+.nr p {
+    background-color: rgb(228, 230, 232);
+}
+
+.content .nr {
+    background-color: rgb(228, 230, 232);
+}
+
+/* 整体高度调整 */
+.w {
+    height: 861px;
+}
+
+.content .leftbg,
+.content .nr,
+.content .rightbg {
+    height: 386px;
+}

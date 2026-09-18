@@ -1,0 +1,63 @@
+/* 重置 */
+* {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* 清除超链接下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 清除li标签小圆点 */
+li {
+    list-style: none;
+}
+
+h1 {
+    padding: 5px;
+    /* border: 5px solid yellow; */
+    /* border-radius: 10px; */
+    /* margin: 30px; */
+    text-align: center;
+    /* background-color: #fff; */
+}
+
+h2 {
+    padding: 5px;
+    /* border: 5px solid yellow; */
+    border-radius: 10px;
+    margin: 30px; /* 添加 margin 属性 */
+    text-align: center;
+}
+
+/* 声明字体 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../../../fonts/icomoon.eot?wskxxn');
+    src:  url('../../../fonts/icomoon.eot?wskxxn#iefix') format('embedded-opentype'),
+      url('../../../fonts/icomoon.ttf?wskxxn') format('truetype'),
+      url('../../../fonts/icomoon.woff?wskxxn') format('woff'),
+      url('../../../fonts/icomoon.svg?wskxxn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+i {
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}

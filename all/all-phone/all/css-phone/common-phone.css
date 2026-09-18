@@ -1,0 +1,248 @@
+/* 版心 */
+.w {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(228, 230, 232);
+}
+
+/* 头部开始 */
+/* 头部区域背景 */
+.header {
+    position: relative;
+    height: auto;
+    background-color: rgb(115, 86, 177);
+}
+
+/* 头部左侧logo */
+.header .logo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+}
+
+.header .logo a {
+    font-size: 0;
+}
+
+.header .logo img {
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 头部左侧文字 */
+.header .txt {
+    text-align: center;
+    font-family: "方正舒体";
+    margin: 10px 0;
+    /* 文字强制一行显示 */
+    white-space: nowrap;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    /* 调用动画 */
+    animation: txt 2s steps(11) forwards;
+    /* background-color: #fff; */
+}
+
+/* 头部左侧打字机动画 */
+@keyframes txt {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* 头部右侧更多网页 */
+.header .moreweb {
+    text-align: center;
+    margin: 10px 0;
+    background-color: rgb(189, 181, 215);
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.header .moreweb a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* 间隙动画开始 */
+.jx {
+    width: 0;
+    height: 3px;
+    background-color: red;
+    /* 调用动画 */
+    animation: move 5s linear 0s infinite alternate;
+}
+
+/* 定义间隙动画 */
+@keyframes move {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* 间隙动画结束 */
+
+
+/* 顶部导航栏开始 */
+.nav {
+    height: auto;
+    background-color: rgb(189, 181, 215);
+    padding: 10px 0;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    height: 20px;
+}
+
+.nav ul li {
+    height: 40px;
+    background-color: #333;
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+    transition: all 0.2s;
+    font-size: medium;
+    float: left;
+    left: 109px;
+}
+
+.nav ul li a {
+    /* display: inline-block; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+.nav ul li:hover a {
+    background-color: rgb(179, 57, 47);
+    color: #fff;
+}
+
+/* 内容开始 */
+.content {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.content .nr {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.content .nr .box {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(232, 234, 238);
+    transition: all 0.4s;
+}
+
+.content .nr .box:hover {
+    transform: translate(0, -3.5px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(237, 239, 243);
+}
+
+.content .nr .box .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content .nr .box .txt2 p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.content .nr .box .data p {
+    text-align: right;
+    padding: 5px;
+    color: #8d9196;
+}
+
+/* 换页开始 */
+.turn {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.turn a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: rgb(237, 239, 243);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.turn a:hover {
+    background-color: aquamarine;
+    color: red;
+}
+
+/* 页脚开始 */
+.footer {
+    height: auto;
+    background-color: rgb(115, 86, 177);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer .bq footer b p {
+    padding: 10px;
+}
+
+.footer .more {
+    margin: 10px 0;
+}
+
+.footer .more a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(182, 181, 179);
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.footer .more a:hover {
+    background-color: #E8EAEE;
+    color: rgb(94, 168, 168);
+}
+
+/* 页脚结束 */
+
+/* 细节补充 */
+body {
+    background-color: rgb(246, 246, 246);
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
